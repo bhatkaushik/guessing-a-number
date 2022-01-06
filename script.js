@@ -1,13 +1,14 @@
 
 
-
 let count =1;
+
 let guess = () => {
 let no =document.getElementById("input").value;
 let num = 5;
-let count =1;
+
 if(no==num){
-  alert("congrajulations! ,you guessed it right");
+  alert(`congrajulations! ,you guessed it right ${count}`);
+
   }
  else if (no > num)
 {
