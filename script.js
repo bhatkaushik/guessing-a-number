@@ -7,7 +7,7 @@ let no =document.getElementById("input").value;
 let num = 5;
 
 if(no==num){
-  alert(`congrajulations! ,you guessed it right ${count}`);
+  alert(`congrajulations! ,you guessed it right after ${count} times`);
 
   }
  else if (no > num)
